@@ -17,7 +17,6 @@ type proxy struct {
 
 var blockedSites []string
 
-
 func getBlockedSites() {
 	file, err := os.Open("./block/blacklist")
 	if err != nil {
